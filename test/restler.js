@@ -392,6 +392,10 @@ function dataResponse(request, response) {
       response.writeHead(200, { 'content-type': 'application/yaml' });
       response.end('{Чебурашка');
       break;
+    case '/empty-json-trim':
+      response.writeHead(200, { 'content-type': 'application/json' });
+      response.end(' ');
+      break;
     case '/abort':
       setTimeout(function() {
         response.writeHead(200);
@@ -608,6 +612,20 @@ module.exports['Deserialization'] = {
       test.ok(false, 'should not have got here');
     }).on('fail', function() {
       test.ok(false, 'should not have got here');
+    });
+  },
+
+  'Should treat trimmed empty data as a valid response': function(test) {
+    test.expect(2);
+    rest.get(host + '/empty-json-trim').on('complete', function(err, response) {
+      test.equal(response.raw, ' ', 'should be " ", got: ' + util.inspect(response.raw));
+      test.done();
+    }).on('error', function(err) {
+      test.ok(false, 'should not have triggered an error');
+    }).on('fail', function() {
+      test.ok(false, 'should not have triggered a fail');
+    }).on('success', function() {
+      test.ok(true, 'should have triggered a success');
     });
   },
 
