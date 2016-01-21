@@ -641,6 +641,24 @@ module.exports['Deserialization'] = {
     }).on('fail', function() {
       test.ok(false, 'should not have got here');
     });
+  },
+
+  'Should parse JSON without mutating options': function(test) {
+    var options = {};
+    rest.get(host + '/json', options).on('complete', function(data) {
+      test.equal(data.ok, true, 'returned: ' + util.inspect(data));
+      test.deepEqual({}, options, 'mutated: ' + util.inspect(options));
+      test.done();
+    });
+  },
+
+  'Should post and parse JSON without mutating options': function(test) {
+    var obj = { secret : 'very secret string' }, options = {};
+    rest.json(host + '/push-json', obj, options, 'POST').on('complete', function(data) {
+      test.equal(obj.secret, data.secret, 'returned: ' + util.inspect(data));
+      test.deepEqual({}, options, 'mutated: ' + util.inspect(options));
+      test.done();
+    });
   }
 
 };
