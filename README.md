@@ -1,4 +1,4 @@
-Restler [![NPM Version](https://img.shields.io/npm/v/restler.svg?style=flat)](https://www.npmjs.com/package/restler) ![Node Version](https://img.shields.io/node/v/restler.svg?style=flat) ![Downloads](https://img.shields.io/npm/dm/restler.svg?style=flat)
+Restler [![NPM Version](https://img.shields.io/npm/v/restler.svg?style=flat)](https://www.npmjs.com/package/restler) ![Node Version](https://img.shields.io/node/v/restler.svg?style=flat) ![Downloads](https://img.shields.io/npm/dm/restler.svg?style=flat) [![Build Status](https://travis-ci.org/alexkwolfe/restler.svg?branch=master)](https://travis-ci.org/alexkwolfe/restler)
 =======
 
 (C) Dan Webb (dan@danwebb.net/@danwrong) 2011, Licensed under the MIT-LICENSE
