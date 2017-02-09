@@ -3,7 +3,7 @@ Restler-base [![NPM Version](https://img.shields.io/npm/v/restler.svg?style=flat
 
 *Restler-base* is a fork of *restler* which does not appear to be actively maintained at present. The fork has been 
 established to include various pull requests pending on the main project and to solve some issues beyond this. The fork 
-is used as a baselone for the *[restler-promise](https://www.npmjs.com/package/restler-promise)* project.
+is used as a baseline for the *[restler-promise](https://www.npmjs.com/package/restler-promise)* project.
 Restler
 ------------
 
