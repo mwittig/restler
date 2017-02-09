@@ -31,10 +31,10 @@
     "qs": "6.3.0",
     "xml2js": "0.4.17",
     "yaml": "0.3.0",
-    "iconv-lite": "0.4.13"
+    "iconv-lite": "0.4.15"
   },
   "devDependencies": {
-    "nodeunit": "0.10.2"
+    "nodeunit": "0.11.0"
   },
   "license": "MIT"
 }
