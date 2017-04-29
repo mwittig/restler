@@ -28,10 +28,10 @@
     "test": "node test/all.js"
   },
   "dependencies": {
-    "qs": "6.3.0",
+    "qs": "6.4.0",
     "xml2js": "0.4.17",
     "yaml": "0.3.0",
-    "iconv-lite": "0.4.15"
+    "iconv-lite": "0.4.16"
   },
   "devDependencies": {
     "nodeunit": "0.11.0"
