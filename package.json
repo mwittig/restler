@@ -12,10 +12,10 @@
       "email": "ben@marvell-consulting.com"
     }
   ],
-  "homepage": "https://github.com/mwittig/restler-base",
+  "homepage": "https://github.com/mwittig/restler",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mwittig/restler-base.git"
+    "url": "https://github.com/mwittig/restler.git"
   },
   "directories": {
     "lib": "./lib"
