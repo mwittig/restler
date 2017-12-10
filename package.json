@@ -28,13 +28,13 @@
     "test": "node test/all.js"
   },
   "dependencies": {
-    "qs": "6.3.0",
-    "xml2js": "0.4.17",
+    "qs": "6.5.1",
+    "xml2js": "0.4.19",
     "yaml": "0.3.0",
-    "iconv-lite": "0.4.15"
+    "iconv-lite": "0.4.19"
   },
   "devDependencies": {
-    "nodeunit": "0.11.0"
+    "nodeunit": "0.11.2"
   },
   "license": "MIT"
 }
