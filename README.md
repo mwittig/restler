@@ -1,10 +1,13 @@
-Restler-base [![NPM Version](https://img.shields.io/npm/v/restler-base.svg?style=flat)](https://www.npmjs.com/package/restler-base) ![Node Version](https://img.shields.io/node/v/restler-base.svg?style=flat) ![Downloads](https://img.shields.io/npm/dm/restler-base.svg?style=flat) [![Build Status](https://travis-ci.org/mwittig/restler-base.svg?branch=master)](https://travis-ci.org/mwittig/restler-base)
+Restler-base 
 ============
+
+[![NPM Version](https://img.shields.io/npm/v/restler-base.svg?style=flat)](https://www.npmjs.com/package/restler-base) ![Node Version](https://img.shields.io/node/v/restler-base.svg?style=flat) ![Downloads](https://img.shields.io/npm/dm/restler-base.svg?style=flat) [![Build Status](https://travis-ci.org/mwittig/restler-base.svg?branch=master)](https://travis-ci.org/mwittig/restler-base)
 
 *Restler-base* is a fork of *restler* which does not appear to be actively maintained at present. The fork has been 
 established to include various pull requests pending on the main project and to solve some issues beyond this. The fork 
 is used as a baseline for the *[restler-promise](https://www.npmjs.com/package/restler-promise)* project.
-Restler
+
+Credits
 ------------
 
 (C) Dan Webb (dan@danwebb.net/@danwrong) 2011, Licensed under the MIT-LICENSE
