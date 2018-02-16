@@ -1,4 +1,4 @@
-Restler-base [![NPM Version](https://img.shields.io/npm/v/restler.svg?style=flat)](https://www.npmjs.com/package/restler) ![Node Version](https://img.shields.io/node/v/restler.svg?style=flat) ![Downloads](https://img.shields.io/npm/dm/restler.svg?style=flat) [![Build Status](https://travis-ci.org/mwittig/restler.svg?branch=master)](https://travis-ci.org/mwittig/restler)
+Restler-base [![NPM Version](https://img.shields.io/npm/v/restler-base.svg?style=flat)](https://www.npmjs.com/package/restler-base) ![Node Version](https://img.shields.io/node/v/restler-base.svg?style=flat) ![Downloads](https://img.shields.io/npm/dm/restler-base.svg?style=flat) [![Build Status](https://travis-ci.org/mwittig/restler-base.svg?branch=master)](https://travis-ci.org/mwittig/restler-base)
 ============
 
 *Restler-base* is a fork of *restler* which does not appear to be actively maintained at present. The fork has been 
