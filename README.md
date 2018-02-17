@@ -16,8 +16,6 @@ Credits
 
 An HTTP client library for node.js.  Hides most of the complexity of creating and using http.Client.
 
-See [Version History](https://github.com/danwrong/restler/wiki/Version-History) for changes
-
 Installing
 ----------
 
