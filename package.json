@@ -1,6 +1,6 @@
 {
   "name": "restler-base",
-  "version": "3.4.5",
+  "version": "3.4.6",
   "description": "An HTTP client library for node.js",
   "contributors": [
     {
